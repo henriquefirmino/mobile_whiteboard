@@ -1,4 +1,4 @@
-/*let express = require("express");
+let express = require("express");
 let app = express();
 let httpServer = require("http").createServer(app);
 let io = require("socket.io")(httpServer);
@@ -26,4 +26,4 @@ io.on("connect", (socket) => {
 app.use(express.static("public"));
 
 let PORT = process.env.PORT || 3000;
-app.listen(PORT,() => console.log(`Server started on port ${PORT}`));*/
+app.listen(PORT,() => console.log(`Server started on port ${PORT}`));
