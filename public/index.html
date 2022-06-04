@@ -4,37 +4,32 @@
     <meta charset="UTF-8" />
     <title>Whiteboard</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="/whiteboard.png" type="favicon" sizes="16x16" />
+    <link
+      rel="icon"
+      href="/assets/whiteboard.png"
+      type="favicon"
+      sizes="16x16"
+    />
+  <script>navigator.serviceWorker.register("sw.js")</script> 
+
+  <link rel="manifest" href="manifest.json">
+    />
   </head>
   <body>
     <header>
-      <div class="tools">
-        <label for="sizes">Size:</label>
+      <canvas class="whiteboard"></canvas>
 
-        <select name="sizes" class="sizes">
-          <option value="1">1</option>
-          <option value="3">3</option>
-          <option value="5">5</option>
-          <option value="8">8</option>
-        </select>
-      </div>
-
-      <div class="tools">
-        <label for="colors">Colors:</label>
-
-        <div class="buttons">
-          <button class="black" value="#000"></button>
-          <button class="red"></button>
-          <button class="green"></button>
-          <button class="blue"></button>
-          <button class="yellow"></button>
-          <input type="color" name="custom" class="custom" />
-        </div>
+      <div class="colors">
+        <div class="color black"></div>
+        <div class="color red"></div>
+        <div class="color green"></div>
+        <div class="color blue"></div>
+        <div class="color yellow"></div>
       </div>
     </header>
 
     <canvas id="canvas"></canvas>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
-    <script src = "./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.0/socket.io.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
