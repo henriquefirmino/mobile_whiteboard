@@ -1,26 +1,26 @@
 {
-  "name": "whiteboard",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "socket.io": "^4.5.1",
-    "tls": "^0.0.1",
-    "workbox": "^0.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.14"
-  },
-  "optionalDependencies": {
-    "bufferutil": "^4.0.5",
-    "utf-8-validate": "^5.0.7"
-  }
+	"name": "whiteboard",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js",
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"socket.io": "^4.5.1",
+		"tls": "^0.0.1",
+		"workbox": "^0.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.14"
+	},
+	"optionalDependencies": {
+		"bufferutil": "^4.0.5",
+		"utf-8-validate": "^5.0.7"
+	}
 }
