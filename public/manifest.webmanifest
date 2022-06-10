@@ -2,7 +2,7 @@
 	"id": "/mobile_whiteboard/public/mobile_whiteboard/public/index.html",
 	"name": "Whiteboard Colaborativo",
 	"short_name": "Whiteboard",
-	"start_url": "mobile_whiteboard/public/index.html",
+	"start_url": "http://127.0.0.1:5500/mobile_whiteboard/public/index.html",
 	"display": "standalone",
 	"description": "Whiteboard para desenho",
 	"lang": "pt",
