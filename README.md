@@ -28,7 +28,7 @@ Para verificar se o NodeJs já está instalado, execute o seguinte comando no te
 Esse comando deve retornar uma resposta com um número da versão, segue um exemplo:
 
 ```
-v16.14.2
+v16.15.1
 ```
 
 Caso retorne que o comando ´node´ não foi encontrado, acesse o link a seguir para fazer a instalação do NodeJS.
@@ -41,6 +41,12 @@ Abra a pasta no terminal e faça a instalação das dependências, para isso exe
 
 ```
 npm install
+```
+
+Também é necessário fazer a instalação do socket.io. Para isso execute o seguinte comando:
+
+```
+npm install socket.io
 ```
 
 Após a instalação execute o comando 
