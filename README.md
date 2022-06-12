@@ -73,7 +73,7 @@ O projeto consiste em uma página web que permite que vários usuários acessem 
 
 Inicialmente, a ideia era de o usuário poder selecionar a espessura do traço entre 4 tamanhos disponíveis e também de haver uma paleta de cores, além das 5 cores principais, para que ele pudesse selecionar a cor que quisesse ou inserir o código RGB.
 
-Acabamos descartando estas ideias e deixando somente as 5 opções de cores diferentes para escolher.
+Acabamos descartando estas ideias e deixando somente as 5 opções de cores diferentes para escolher
 
 ![alt text](./assets/images_readme/4.PNG)
 
