@@ -75,7 +75,7 @@ Inicialmente, a ideia era de o usuário poder selecionar a espessura do traço e
 
 Acabamos descartando estas ideias e deixando somente as 5 opções de cores diferentes para escolher
 
-![alt text](./assets/images_readme/4.PNG)
+![alt text](./assets/images_readme/4.png)
 
 Apenas para efeitos de ilustração, aqui pode-se observar o mockup para a escolha de cores pela paleta
 
