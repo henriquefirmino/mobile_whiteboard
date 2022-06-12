@@ -57,6 +57,13 @@ npm start
 
 e acesse http://localhost:3000 para acessar a página que o programa está executando.
 
+## Executando como PWA
+
+Para executar o projeto como PWA, basta rodar o "index.html" pelo live server no Visual Studio.
+
+Infelizmente, no PWA não conseguimos fazer funcionar a parte de vários usuários utilizarem simultaneamente.
+
+Mas, é possível fazer o download do PWA, interagir e desenhar com o Whiteboard.
 
 ## Descrição do Projeto
 
@@ -64,10 +71,14 @@ O projeto consiste em uma página web que permite que vários usuários acessem 
 
 **Ferramentas**
 
-O usuário pode selecionar tamanhos para a espessura da linha, tem 4 tamanhos diponíveis.
+Inicialmente, a ideia era de o usuário poder selecionar a espessura do traço entre 4 tamanhos disponíveis e também de haver uma paleta de cores, além das 5 cores principais, para que ele pudesse selecionar a cor que quisesse ou inserir o código RGB.
 
-Há também uma lista com cores principais e uma última opção que o usuário pode abrir uma paleta de cores e selecionar em um mosaico ou inserir o código RGB.
+Acabamos descartando estas ideias e deixando somente as 5 opções de cores diferentes para escolher.
 
-![alt text](./assets/images_readme/1.PNG)
+![alt text](./assets/images_readme/4.PNG)
+
+Apenas para efeitos de ilustração, aqui pode-se observar o mockup para a escolha de cores pela paleta
 ![alt text](./assets/images_readme/2.PNG)
+
+E aqui, o mockup para escolha da espessura do traço
 ![alt text](./assets/images_readme/3.PNG)
