@@ -78,7 +78,9 @@ Acabamos descartando estas ideias e deixando somente as 5 opções de cores dife
 ![alt text](./assets/images_readme/4.PNG)
 
 Apenas para efeitos de ilustração, aqui pode-se observar o mockup para a escolha de cores pela paleta
+
 ![alt text](./assets/images_readme/2.PNG)
 
 E aqui, o mockup para escolha da espessura do traço
+
 ![alt text](./assets/images_readme/3.PNG)
